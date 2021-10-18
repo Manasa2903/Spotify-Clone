@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.navbar {
+    background-color: black;
+}
+
+.spotify-logo {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#nav1 {
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#nav2 {
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#nav3 {
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#nav4 {
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: default;
+}
+
+#nav5 {
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#nav1:hover {
+    color: #1ed760;
+}
+
+#nav2:hover {
+    color: #1ed760;
+}
+
+#nav3:hover {
+    color: #1ed760;
+}
+
+#nav5:hover {
+    color: #1ed760;
+}
+
+.top-container {
+    background-color: rgb(255, 205, 210);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium-heading {
+    color: #D83519;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.premium-button {
+    background-color: #D83519;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    width: 240px;
+    height: 45px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.terms-para {
+    color: #D83519;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.bottom-container {
+    background-image: url("https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg");
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(41, 65, 171);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.music-heading {
+    font-size: 60px;
+    color: #1ed760;
+    font-weight: bold;
+}
+
+.music-para {
+    font-size: 24px;
+    margin: 32px;
+    color: #1ed760;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-email {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-logo {
+    margin-bottom: 50px;
+    width: 150px;
+}
+
+.footer-address {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.music-button {
+    background-color: #1ed760;
+    color: rgb(41, 65, 171);
+    font-size: 14px;
+    border: 0;
+    width: 220px;
+    height: 45px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width:767px) {
+    .premium-heading {
+        font-size: 24px;
+    }
+    .music-heading {
+        font-size: 24px;
+    }
+    .music-para {
+        font-size: 18px;
+    }
+    .bottom-container {
+        background-image: url("https://content-tooling.spotifycdn.com/images/af63e367-ad10-4063-a8e2-5a50ae2a4b28_lie_circles-mobile.svg");
+        background-size: cover;
+    }
+}

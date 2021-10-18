@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body {
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+.spotify-logo {
+    height: 60px;
+    width: 130px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.spotify-logo path {
+    fill: white;
+}
+
+.sidebar {
+    background-color: black;
+    color: #b3b3b3;
+    padding: 20px;
+    height: 90vh;
+    width: 250px;
+}
+
+.red {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.like path {
+    fill: #b3b3b3;
+}
+
+.sidebar-name-container {
+    display: flex;
+    padding-left: 5px;
+    border-radius: 5px;
+    align-items: center;
+    height: 50px;
+}
+
+.sidebar-name-container:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.create-playlist {
+    color: black;
+    font-weight: bold;
+    background-color: #b3b3b3;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    background-color: #101110;
+    height: 90vh;
+    width: 100%;
+    overflow: auto;
+    scrollbar-color: black;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.line {
+    background-color: #b3b3b3;
+}
+
+.seek-bar {
+    background-color: black;
+    height: 3vh;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-shadow: -80px 0 0 80px black;
+}
+
+.controls {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.arrows {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.arrow-container {
+    margin: 20px;
+}
+
+.upgrade {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 35px;
+    padding: 20px;
+    border-radius: 50px;
+    border: solid 1px white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username {
+    margin-left: 10px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.my-playlist {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.my-playlist:hover {
+    color: white;
+}
+
+.menu-container {
+    margin-bottom: 2px;
+}
+
+#mainSongName {
+    color: white;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 30px;
+}
+
+.user-container {
+    background-color: black;
+    height: 35px;
+    width: 120px;
+    border-radius: 50px;
+    border: 3px solid rgb(33, 33, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.user-container:hover {
+    background-color: rgb(51, 47, 47);
+}
+
+.top-nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-choice-container {
+    display: flex;
+    margin: 25px;
+}
+
+.bg-color {
+    background-color: #282828;
+}
+
+.songBanner {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.songHeading {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.songName {
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    height: 28px;
+    text-align: center;
+}
+
+.songItemContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.songItem {
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.songItem:hover {
+    background-color: rgb(51, 47, 47);
+}
+
+#myProgressBar {
+    width: 70vw;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar {
+        height: 10vh;
+        width: 100%;
+    }
+    .controls {
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    .spotify-logo {
+        display: none;
+    }
+    .content-container {
+        height: 80vh;
+    }
+    .sidebar-name-container {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+    }
+    #sidebar-name3 {
+        display: none;
+    }
+    #sidebar-name4 {
+        display: none;
+    }
+    .line {
+        display: none;
+    }
+    .my-playlist {
+        display: none;
+    }
+    .menu-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .arrows {
+        display: none;
+    }
+    .user-choice-container {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+    }
+    #myProgressBar {
+        width: 40vw;
+    }
+    #mainSongName {
+        margin-top: 8ekpx;
+        font-size: 12px;
+    }
+    .sidebar-name {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .upgrade {
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 35px;
+        padding: 10px;
+        border-radius: 50px;
+        border: solid 1px white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .user-container {
+        background-color: black;
+        height: 35px;
+        width: 100px;
+        border-radius: 50px;
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}

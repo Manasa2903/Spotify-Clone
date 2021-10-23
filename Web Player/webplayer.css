@@ -64,6 +64,10 @@ body {
     margin-top: 20px;
 }
 
+#playlist-container {
+    overflow: auto;
+    height: 170px;
+}
 .create-playlist {
     color: black;
     font-weight: bold;
